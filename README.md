@@ -27,7 +27,7 @@ library yamerl.
 
     defp deps do
       [{ :obelisk, "~> 0.7.1" },
-       { :yamerl, github: "yakaz/yamerl"}]
+       {:yamerl, "~> 0.4.0"}]
     end
 
 Next we need to download obelisk and compile it
